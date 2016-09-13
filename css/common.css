@@ -1,0 +1,53 @@
+@charset "utf-8";
+body {
+    font:'Microsoft Yahei',Arial,sans-serif;
+    margin: 0;
+    color: #123;
+    min-height: 80%;
+    position: relative;
+    word-break: break-all;
+    word-wrap: break-word;
+    background: #f2f2f2;
+    font-size: 14px;
+}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
+.clearfix{*zoom:1;}
+ol,ul,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a, button {
+    color: #123;
+    text-decoration: none;
+    outline: none;
+}
+.fl{float: left;}
+.inb{
+	display: inline-block;
+    zoom: 1;
+    vertical-align: top
+}
+.overdot{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ml01{margin-left: 20px;}
+.tips{color: #8E8E8E;}
+/*去除input标签focus时浏览器附加的默认样式*/
+input,button,textarea:focus{
+    outline: 0;
+}
+.per-con input[type="text"]:focus,.per-con input[type="password"]:focus,.per-con textarea:focus,.sx-send:focus{
+    border:1px solid #fec514;
+}
+.color-red{color:red;}
+.color-yellow{color:#fec514;}
+.color-blue{color: #6495ED;}
+.fw{font-weight: bold;}
+.w200{width: 200px;}
+.w450{width: 450px;}
+.w180{width: 180px;}
+.w106{width: 106px;}
